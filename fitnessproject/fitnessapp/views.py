@@ -9,6 +9,7 @@ from django.contrib.auth.models import User
 
 
 
+# route the user to see what i coded #
 
 def index(request):
     return HttpResponse('we are working on a server for you')
